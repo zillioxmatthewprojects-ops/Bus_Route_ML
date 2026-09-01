@@ -1,6 +1,6 @@
 # Bus_Route_ML
-This repo is a demo of coding for a fake bus routes with states, routes, bus types, passengers, and dates that creates a data set with multiple adjustable variables.
-I originally created this dataset to test potential new hires skills and current team with Power BI and Excel data cleaning and dashboard development.
+This repo is a demo of skills and logic for python, ML, and creation. Which includes a data creation, data cleaning, and ML projects. The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
+I originally created this dataset to test potential new hires skills and train current team with Power BI and Excel data cleaning and dashboard development.
 There is an associated word document that tells the new hire the requirements and gives pricing sheet. This tests the ability to extrabolate the price info to add it to a dashboard or determine other errors.
 
 ==What this dataset does===
@@ -15,16 +15,17 @@ This also makes it useful for group testing: generating slightly different datas
 4. Run Label: name of file if multiple need to ne created
 
 ===World===
-This is the world creation section. Currently it covers vehicle type, routes, state, and riders. These are based on a random number generator, paired with weights to skew the data depending on a few factors. The names, route-to-state pairs, and weights can each be adjusted independently to add more vehicle types, routes, or states, rearrange existing ones, or change the weights — producing a different dataset from the same underlying structure.
+This section of code the world building as the foundation for the data creation. This covers vehicle type, routes, state, ridership, and weights for each. These are based on a random number generator, paired with weights to skew the data depending on a few factors. The names, route-to-state pairs, and weights can each be adjusted independently to add more vehicle types, routes, or states, rearrange existing ones, or change the weights to produce a different dataset from the same underlying structure.
 
 Entities: States
 Routes: States with routes associated
 Vehicle: Types - Standard, HellCat, Mini, Volt
 Vehicle Multiplier:
 Vehicle Capacity: Limit on the number of riders per vehicle type
-
 Vehicle weights by tier: assigned weight for each route.
+
 Each vehicle type is assigned a weight per route tier (busy, moderate, quiet). Busy routes are weighted toward larger buses, quiet routes toward smaller ones. This creates a learnable relationship between route volume and vehicle type which lets the dataset intentionally include oversized-bus inefficiencies for a ML analysis or analyst to catch.
+
 Route Multiplier:
 
 
