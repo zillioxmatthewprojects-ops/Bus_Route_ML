@@ -1,7 +1,7 @@
 # Bus_Route_ML
-This repo is a demo of skills and logic for python, ML, and creation. Which includes a data creation, data cleaning, and ML projects. The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
-I originally created this dataset to test potential new hires skills and train current team with Power BI and Excel data cleaning and dashboard development.
-There is an associated word document that tells the new hire the requirements and gives pricing sheet. This tests the ability to extrabolate the price info to add it to a dashboard or determine other errors.
+This repo is a demo of skills and logic for python, ML, and creation. Which includes data creation, data cleaning, and ML projects. The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
+I originally created this dataset to test potential new hires skills and train the current team with Power BI and Excel data cleaning and dashboard development.
+There is an associated word document that tells the new hire the requirements and provides a pricing sheet. This tests the ability to extrapolate the price info to add it to a dashboard or determine other errors.
 
 ==What this dataset does===
 This generator can be reused to create different datasets for different purposes. Each run can be tuned to embed a specific finding — one version might show Route 7 consistently overcrowded and needing larger buses, another might show oversized buses being underused across Texas. Each version tests a different kind of pattern recognition, from single-route capacity issues to state-level inefficiencies.
@@ -12,10 +12,10 @@ This also makes it useful for group testing: generating slightly different datas
 1. N_ROWS: Number of rows of data to create. (some errors make more for duplicates)
 2. Seed number: random number generation (28)
 3. CLEAN MODE: (True / False) all errors are turned off. Used for ML to ensure errors do not cause issues when testing.
-4. Run Label: name of file if multiple need to ne created
+4. Run Label: name of file if multiple need to be created
 
 ===World===
-This section of code the world building as the foundation for the data creation. This covers vehicle type, routes, state, ridership, and weights for each. These are based on a random number generator, paired with weights to skew the data depending on a few factors. The names, route-to-state pairs, and weights can each be adjusted independently to add more vehicle types, routes, or states, rearrange existing ones, or change the weights to produce a different dataset from the same underlying structure.
+This section of code is the world building as the foundation for the data creation. This covers vehicle type, routes, state, ridership, and weights for each. These are based on a random number generator, paired with weights to skew the data depending on a few factors. The names, route-to-state pairs, and weights can each be adjusted independently to add more vehicle types, routes, or states, rearrange existing ones, or change the weights to produce a different dataset from the same underlying structure.
 
 Entities: States
 Routes: States with routes associated
@@ -36,7 +36,4 @@ Route Multiplier:
 create bus route data - Working
 Data error exploration and cleaning - in progress
 ML projects - in progress
-
-
-
 Development notes: Dataset generation logic was built with Claude (Anthropic) as a coding assistant. Data creation logic, Error-injection design, dashboard requirements, and analysis approach are my own.
