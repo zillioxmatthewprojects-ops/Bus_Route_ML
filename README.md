@@ -1,5 +1,12 @@
 # Bus_Route_ML
-This repo is a demo of skills and logic for python, ML, and creation. Which includes data creation, data cleaning, and ML projects. The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
+This repo is a demo of skills and logic for python, ML, and creation.
+
+Projects include:
+Data creation
+Data cleaning
+ML projects.
+
+The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
 I originally created this dataset to test potential new hires skills and train the current team with Power BI and Excel data cleaning and dashboard development.
 There is an associated word document that tells the new hire the requirements and provides a pricing sheet. This tests the ability to extrapolate the price info to add it to a dashboard or determine other errors.
 
