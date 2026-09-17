@@ -1,10 +1,17 @@
 # Bus_Route_ML
-This repo is a demo of skills and logic for python, ML, and creation.
+This repo demonstrates Python, data creation, data exploration, data cleaning, and ML skills through an end-to-end synthetic data pipeline — generating messy bus route data, cleaning it, and building a predictive model on top of it. A clean-data mode is also available for ML testing, so bad data doesn't skew results during model development.
+
+A note on comments: code sections are labeled "Jumanji" instead of "Step" as a personal marker — it lets me quickly distinguish code I wrote and tested myself from documentation or boilerplate, and helps me track progress across a notebook.
 
 Projects include:
 Data Creation
 Data Cleaning
-ML projects
+Data Exploration
+Bus Fare ML Logistical Regression (Profitable Trip)
+
+Files:
+Bus Fare file
+
 
 The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
 I originally created this dataset to test potential new hires skills and train the current team with Power BI and Excel data cleaning and dashboard development.
@@ -35,14 +42,7 @@ Each vehicle type is assigned a weight per route tier (busy, moderate, quiet). B
 
 Route Multiplier:
 
-
-
 ===Errors===
-
-===Planned projects===
-create bus route data - Working
-Data error exploration and cleaning - in progress
-ML projects - in progress
 
 
 Development notes: Dataset generation logic was built with Claude (Anthropic) as a coding assistant. Data creation logic, Error-injection design, dashboard requirements, and analysis approach are my own.
