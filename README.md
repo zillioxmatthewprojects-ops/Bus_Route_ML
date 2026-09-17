@@ -2,9 +2,9 @@
 This repo is a demo of skills and logic for python, ML, and creation.
 
 Projects include:
-Data creation
-Data cleaning
-ML projects.
+Data Creation
+Data Cleaning
+ML projects
 
 The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
 I originally created this dataset to test potential new hires skills and train the current team with Power BI and Excel data cleaning and dashboard development.
@@ -43,4 +43,6 @@ Route Multiplier:
 create bus route data - Working
 Data error exploration and cleaning - in progress
 ML projects - in progress
+
+
 Development notes: Dataset generation logic was built with Claude (Anthropic) as a coding assistant. Data creation logic, Error-injection design, dashboard requirements, and analysis approach are my own.
