@@ -10,7 +10,8 @@ Data Exploration
 Bus Fare ML Logistical Regression (Profitable Trip)
 
 Files:
-Bus Fare file
+Bus Fare file (Price Sheet)
+Bus Depot ML (Generated Data - Clean Mode)
 
 
 The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
@@ -41,8 +42,5 @@ Vehicle weights by tier: assigned weight for each route.
 Each vehicle type is assigned a weight per route tier (busy, moderate, quiet). Busy routes are weighted toward larger buses, quiet routes toward smaller ones. This creates a learnable relationship between route volume and vehicle type which lets the dataset intentionally include oversized-bus inefficiencies for a ML analysis or analyst to catch.
 
 Route Multiplier:
-
-===Errors===
-
 
 Development notes: Dataset generation logic was built with Claude (Anthropic) as a coding assistant. Data creation logic, Error-injection design, dashboard requirements, and analysis approach are my own.
