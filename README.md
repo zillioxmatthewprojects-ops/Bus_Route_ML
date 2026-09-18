@@ -1,7 +1,7 @@
 # Bus_Route_ML
 This repo demonstrates Python, data creation, data exploration, data cleaning, and ML skills through an end-to-end synthetic data pipeline — generating messy bus route data, cleaning it, and building a predictive model on top of it. A clean-data mode is also available for ML testing, so bad data doesn't skew results during model development.
 
-A note on comments: code sections are labeled "Jumanji" instead of "Step" as a personal marker — it lets me quickly distinguish code I wrote and tested myself from documentation or boilerplate, and helps me track progress across a notebook.
+A note on comments: code sections are labeled "Jumanji" instead of "Step" as a personal marker. This lets me quickly distinguish code I wrote and tested myself from documentation or boilerplate, helps me track progress across a notebook, and determines what stages of the code ran successfully.
 
 Projects include:
 Data Creation,
