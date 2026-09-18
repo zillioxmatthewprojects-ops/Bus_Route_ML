@@ -4,13 +4,13 @@ This repo demonstrates Python, data creation, data exploration, data cleaning, a
 A note on comments: code sections are labeled "Jumanji" instead of "Step" as a personal marker — it lets me quickly distinguish code I wrote and tested myself from documentation or boilerplate, and helps me track progress across a notebook.
 
 Projects include:
-Data Creation
-Data Cleaning
-Data Exploration
+Data Creation,
+Data Cleaning,
+Data Exploration,
 Bus Fare ML Logistical Regression (Profitable Trip)
 
 Files:
-Bus Fare file (Price Sheet)
+Bus Fare file (Price Sheet),
 Bus Depot ML2_Data (Generated Data - Clean Mode)
 
 
