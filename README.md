@@ -11,7 +11,7 @@ Bus Fare ML Logistical Regression (Profitable Trip)
 
 Files:
 Bus Fare file (Price Sheet)
-Bus Depot ML (Generated Data - Clean Mode)
+Bus Depot ML2_Data (Generated Data - Clean Mode)
 
 
 The dataset creator is adjustable and includes vehicle types, routes with states, routes, passengers, and dates.
