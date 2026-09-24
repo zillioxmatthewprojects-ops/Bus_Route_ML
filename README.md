@@ -1,6 +1,8 @@
 # Bus_Route_ML
 This repo demonstrates Python, data creation, data exploration, data cleaning, and ML skills through an end-to-end synthetic data pipeline — generating messy bus route data, cleaning it, and building a predictive model on top of it. A clean-data mode is also available for ML testing, so bad data doesn't skew results during model development.
 
+Built a synthetic dataset generator with intentionally embedded data-quality and efficiency patterns (e.g., route overcrowding, vehicle-size mismatches) for BI/ML training use; ongoing exploratory analysis in Python (profit, vehicle and route distribution).
+
 A note on comments: code sections are labeled "Jumanji" instead of "Step" as a personal marker. This lets me quickly distinguish code I wrote and tested myself from documentation or boilerplate, helps me track progress across a notebook, and determines what stages of the code ran successfully.
 
 Projects include:
@@ -18,7 +20,7 @@ The dataset creator is adjustable and includes vehicle types, routes with states
 I originally created this dataset to test potential new hires skills and train the current team with Power BI and Excel data cleaning and dashboard development.
 There is an associated word document that tells the new hire the requirements and provides a pricing sheet. This tests the ability to extrapolate the price info to add it to a dashboard or determine other errors.
 
-==What this dataset does===
+===What this dataset does===
 This generator can be reused to create different datasets for different purposes. Each run can be tuned to embed a specific finding — one version might show Route 7 consistently overcrowded and needing larger buses, another might show oversized buses being underused across Texas. Each version tests a different kind of pattern recognition, from single-route capacity issues to state-level inefficiencies.
 
 This also makes it useful for group testing: generating slightly different datasets per trainee prevents them from sharing answers while still testing the same skills.
